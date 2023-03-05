@@ -14,8 +14,8 @@ export async function main(ns) {
 ```
 ## Things I've learned
 Think of this as a quick-start guide to making scripts in BitBurner.
-### Calling functions start with `ns.`
-If you use `nano` to create a script inside the game, it will automatically add the function enclosure. From there you can call functions from _NetScript_ which is the in-game program generator. Go [here](https://bitburner.readthedocs.io/en/latest/netscript/netscriptfunctions.html "Bitburner Docs") to go through all the functions to call. In the terminal one can just type `hack`, but in a script the function must be called and targeted looking like `ns.hack(n00bes)`. 
+### Calling in-game functions and variables start with `ns.`
+If you use `nano` to create a script inside the game, it will automatically add the function enclosure. From there you can call functions from _NetScript_ which is the in-game program generator. Go [here](https://bitburner.readthedocs.io/en/latest/netscript/netscriptfunctions.html "Bitburner Docs") to go through all the functions to call. In the terminal one can just type `hack`, but in a script the function must be called and targeted looking like `ns.hack(n00bes)`. This rule also applies to `ns.args[0]` when trying to use a terminal argument.
 ### Don't forget the semicolon `;`
 My experience with scripting comes from PowerShell where semicolons are only needed when calling multiple functions in the same line without a pipe. Basically it's quite rare, and PowerShell understands that starting a new line is a separator. 
 ### While (True)
